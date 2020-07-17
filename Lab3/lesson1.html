@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="lesson1.css">
+
+
+</head>
+  <body>
+    <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+<div class="BigIM">
+  <div class="mySlides">
+    <div class="numbertext">1 / 8</div>
+      <img src="images/im1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 8</div>
+      <img src="images/im2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 8</div>
+      <img src="images/im3.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 8</div>
+      <img src="images/im4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 8</div>
+      <img src="images/im1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 8</div>
+      <img src="images/im2.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides">
+    <div class="numbertext">7 / 8</div>
+      <img src="images/im3.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">8 / 8</div>
+      <img src="images/im4.jpg" style="width:100%">
+  </div>
+
+</div>
+
+  <!-- Image text -->
+  <!-- <div class="caption-container">
+    <p id="caption"></p>
+  </div> -->
+
+  <!-- Thumbnail images -->
+  <button class="prev" onclick="plusSlides(-1,false)">&#10094;</button>
+    <button class="next" onclick="plusSlides(1,true)">&#10095;</button>
+  <div id="row">
+    <!-- Next and previous buttons -->
+
+  
+    <div class="column">
+      <img class="demo cursor" src="images/im1.jpg" style="width:250px;height:200px;" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/im2.jpg" style="width:250px;height:200px;" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/im3.jpg" style="width:250px;height:200px" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/im4.jpg" style="width:250px;height:200px" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/im1.jpg" style="width:250px;height:200px" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/im2.jpg" style="width:250px;height:200px" onclick="currentSlide(6)" alt="Snowy Mountains">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/im3.jpg" style="width:250px;height:200px" onclick="currentSlide(7)" alt="Snowy Mountains2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/im4.jpg" style="width:250px;height:200px" onclick="currentSlide(8)" alt="Snowy Mountains3">
+    </div>
+  </div>
+</div>
+  <script type="text/javascript">
+var slideIndex = 1;
+showSlides(slideIndex,false);
+
+function plusSlides(n,boolean) {
+
+  showSlides(slideIndex += n,false);
+
+;
+  if(boolean==true)
+  {
+    document.getElementById('row').scrollLeft += 250;
+  }
+  else
+  {
+    document.getElementById('row').scrollLeft -= 250;
+  }
+  
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n,true);
+}
+
+function showSlides(n,y) {
+  document.getElementById("row").style.filter = "brightness(100%)";
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var gone=document.getElementsByClassName("row");
+
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    
+      
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+
+      
+  }
+  if(y==true)
+  {
+  slides[slideIndex-1].style.display = "block";
+  document.getElementById("row").style.filter = "brightness(20%)";
+   
+  }
+
+  dots[slideIndex-1].className += " active";
+
+}
+  </script>
+  </body>
+</html>

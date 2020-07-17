@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+*	X:\LabPoly\Web3022\Lab3\lesson1.css	/^* {$/;"	function	line:1
+.container	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.container {$/;"	function	line:6
+.mySlides	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.mySlides {$/;"	function	line:12
+.dark-mode	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.dark-mode {$/;"	function	line:22
+.cursor	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.cursor {$/;"	function	line:27
+.prev	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.prev,$/;"	function	line:32
+.next	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.next {$/;"	function	line:33
+.next	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.next {$/;"	function	line:48
+.prev:hover	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.prev:hover,$/;"	function	line:54
+.next:hover	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.next:hover {$/;"	function	line:55
+.numbertext	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.numbertext {$/;"	function	line:60
+/* .caption-container	X:\LabPoly\Web3022\Lab3\lesson1.css	/^\/* .caption-container {$/;"	function	line:69
+.row:after	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.row:after {$/;"	function	line:80
+.column	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.column {$/;"	function	line:90
+.demo	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.demo {$/;"	function	line:97
+.active	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.active,$/;"	function	line:101
+.demo:hover	X:\LabPoly\Web3022\Lab3\lesson1.css	/^.demo:hover {$/;"	function	line:102
+html	X:\LabPoly\Web3022\Lab3\lesson1.html	/^<html lang="en" dir="ltr">$/;"	function	line:2
+head	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <head>$/;"	function	line:3
+meta	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <meta charset="utf-8">$/;"	function	line:4
+title	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <title><\/title>$/;"	function	line:5
+link	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <link rel="stylesheet" href="lesson1.css">$/;"	function	line:6
+body	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <body>$/;"	function	line:10
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^<div class="container">$/;"	function	line:12
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <div class="mySlides">$/;"	function	line:16
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="numbertext">1 \/ 8<\/div>$/;"	function	line:17
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img src="images\/im1.jpg" style="width:100%">$/;"	function	line:18
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <div class="mySlides">$/;"	function	line:21
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="numbertext">2 \/ 8<\/div>$/;"	function	line:22
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img src="images\/im2.jpg" style="width:100%">$/;"	function	line:23
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <div class="mySlides">$/;"	function	line:26
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="numbertext">3 \/ 8<\/div>$/;"	function	line:27
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img src="images\/im3.jpg" style="width:100%">$/;"	function	line:28
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <div class="mySlides">$/;"	function	line:31
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="numbertext">4 \/ 8<\/div>$/;"	function	line:32
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img src="images\/im4.jpg" style="width:100%">$/;"	function	line:33
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <div class="mySlides">$/;"	function	line:36
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="numbertext">5 \/ 8<\/div>$/;"	function	line:37
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img src="images\/im1.jpg" style="width:100%">$/;"	function	line:38
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <div class="mySlides">$/;"	function	line:41
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="numbertext">6 \/ 8<\/div>$/;"	function	line:42
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img src="images\/im2.jpg" style="width:100%">$/;"	function	line:43
+p	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <p id="caption"><\/p>$/;"	function	line:49
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <div class="row">$/;"	function	line:54
+a	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <a class="prev" onclick="plusSlides(-1)">&#10094;<\/a>$/;"	function	line:57
+a	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <a class="next" onclick="plusSlides(1)">&#10095;<\/a>$/;"	function	line:58
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="column">$/;"	function	line:59
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img class="demo cursor" src="images\/im1.jpg" style="width:250px;height:200px;" onclick="currentSlide(1)" alt="The Woods">$/;"	function	line:60
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="column">$/;"	function	line:62
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img class="demo cursor" src="images\/im2.jpg" style="width:250px;height:200px" onclick="currentSlide(2)" alt="Cinque Terre">$/;"	function	line:63
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="column">$/;"	function	line:65
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img class="demo cursor" src="images\/im3.jpg" style="width:250px;height:200px" onclick="currentSlide(3)" alt="Mountains and fjords">$/;"	function	line:66
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="column">$/;"	function	line:68
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img class="demo cursor" src="images\/im4.jpg" style="width:250px;height:200px" onclick="currentSlide(4)" alt="Northern Lights">$/;"	function	line:69
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="column">$/;"	function	line:71
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img class="demo cursor" src="images\/im1.jpg" style="width:250px;height:200px" onclick="currentSlide(5)" alt="Nature and sunrise">$/;"	function	line:72
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="column">$/;"	function	line:74
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img class="demo cursor" src="images\/im2.jpg" style="width:250px;height:200px" onclick="currentSlide(6)" alt="Snowy Mountains">$/;"	function	line:75
+div	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    <div class="column">$/;"	function	line:77
+img	X:\LabPoly\Web3022\Lab3\lesson1.html	/^      <img class="demo cursor" src="images\/im3.jpg" style="width:250px;height:200px" onclick="currentSlide(6)" alt="Snowy Mountains">$/;"	function	line:78
+script	X:\LabPoly\Web3022\Lab3\lesson1.html	/^  <script type="text\/javascript">$/;"	function	line:82
+plusSlides	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    function plusSlides(n) {$/;"	function	line:87
+showSlides	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    function showSlides(n) {$/;"	function	line:90
+currentSlide	X:\LabPoly\Web3022\Lab3\lesson1.html	/^    function currentSlide(n) {$/;"	function	line:111
