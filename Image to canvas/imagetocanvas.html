@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" style="background-color: rgb(255, 255, 255);border:1px solid #d3d3d3;" width="900" height="554"></canvas>
+<script>
+  var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "50px Serif";
+
+ctx.fillText("HTML",130,80);
+ctx.fillText("CSS3",640,80);
+
+
+
+
+
+		//vẽ đa giác
+		ctx.fillStyle = '#E44D26';
+		ctx.beginPath();
+// h1
+//top edge x1=100, x2=300;
+ctx.moveTo(100,100);
+ctx.moveTo(300,100);
+
+//left edge
+ctx.lineTo(100,100);
+ctx.lineTo(120,300);
+//left bottom edge
+
+ctx.lineTo(120,300);
+ctx.lineTo(200,320);
+
+//right edge
+ctx.lineTo(300,100);
+ctx.lineTo(280,300);
+
+//right bottom edge
+
+ctx.lineTo(280,300);
+ctx.lineTo(200,320);
+
+ctx.stroke();
+ctx.fill();
+
+
+
+
+//h2
+ctx.fillStyle = '#1B73BA';
+		ctx.beginPath();
+//top edge
+ctx.moveTo(600,100);
+ctx.moveTo(800,100);
+//left edge
+ctx.lineTo(600,100);
+ctx.lineTo(620,300);
+//left bottom edge
+
+ctx.lineTo(620,300);
+ctx.lineTo(700,320);
+
+//right edge
+ctx.lineTo(800,100);
+ctx.lineTo(780,300);
+//right bottom edge
+
+ctx.lineTo(780,300);
+ctx.lineTo(700,320);
+
+ctx.stroke();
+ctx.fill();
+
+ctx.fillStyle = 'rgb(255, 255, 255)';
+ctx.font = "200px Serif";
+ctx.fillText("5",155,260);
+ctx.fillText("3",655,260);
+</script>
+</body>
+</html>

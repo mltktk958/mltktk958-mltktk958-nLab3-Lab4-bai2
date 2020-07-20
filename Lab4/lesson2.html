@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        audio, embed {
+    position: absolute;
+    z-index: -9999;
+}
+        body
+        {
+            margin: auto;
+            width: 70%;
+        }
+        /* style the header */
+        header{
+            color: rgb(34, 182, 250);
+
+        }
+        hr
+        {
+            height: 1px;
+    color: rgb(34, 182, 250);;
+    background-color: rgb(34, 182, 250);;
+    border: none;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h2>Cities</h2>
+        <hr>
+        <hr>
+    </header>
+    <section>
+        <article>
+            <video id="video" width="100%" height="600px" controls >
+                <source src="videos/WhatisHTML5.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+        </article>
+        
+        <div style="position: relative;width: 100%;height: 100px;">
+            <span style="position: absolute; top:10px">Tùy chọn movie </span>
+            <div style="position: absolute;right:40%;top: 10px;">
+                <button type="button" onclick="playvideo()">Chạy</button>
+                <button type="button" onclick="pausevideo()">Tạm dừng</button>
+                <button type="button" onclick="changeWith(300)">300</button>
+                <button type="button" onclick="changeWith(500)">500</button>
+                <button type="button" onclick="changeWith(800)">800</button>
+            </div>
+
+            
+        </div>
+       
+        <audio id="player" autoplay loop>
+            <source src="musics/WhatisHTML5.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <script>
+        
+  
+        var audioElement;
+if(!audioElement) {
+  audioElement = document.createElement('audio');
+  audioElement.innerHTML = '<source src="' + 'musics/WhatisHTML5.mp3'+ '" type="audio/mpeg" />'
+}
+audioElement.play();
+        function pausevideo()
+        {
+            document.getElementById("video").pause();
+        }
+        function playvideo()
+        {
+            document.getElementById("video").play();
+         
+        }
+        function changeWith(width)
+        {
+            document.getElementById("video").style.width = width+"px";
+        }
+
+       
+    </script>
+</body>
+</html>
